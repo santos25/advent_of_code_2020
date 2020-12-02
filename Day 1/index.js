@@ -202,7 +202,6 @@ const expenseReportArr = [
 ];
 
 function findTwoEntries() {
-  const result = 0;
   for (let firstIndex = 0; firstIndex < expenseReportArr.length; firstIndex++) {
     for (
       let secondIndex = 0;
