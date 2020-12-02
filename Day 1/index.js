@@ -218,7 +218,7 @@ function findTwoEntries() {
             " Two entries result ",
             expenseReportArr[firstIndex] * expenseReportArr[secondIndex]
           );
-          break;
+          return false;
         }
       }
     }
@@ -253,7 +253,7 @@ function findThreeEntries() {
                 expenseReportArr[secondIndex] *
                 expenseReportArr[thirdIndex]
             );
-            break;
+            return false;
           }
         }
       }
